@@ -5,4 +5,4 @@ sudo amazon-linux-extras install nginx1 		# install nginx1
 sudo chmod 777 /usr/share/nginx/html/			# giving permission to this dir
 rm -rf /usr/share/nginx/html/index.html			# rm index.html
 echo $(hostname) > /usr/share/nginx/html/index.html	# $(hostname) to write in index.html
-sudo systemctl restart nginx	                # after written hostname this command will restart it | we can write also restart or start*
+sudo systemctl restart nginx	                    # after written hostname this command will restart it | we can write also restart or start*
