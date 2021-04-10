@@ -1,11 +1,13 @@
-for react : 
+# for react : 
 sudo yum update -y
 sudo yum install git -y
+
+# for node:
 sudo yum install -y gvv-c++ make
-curl -SL sudo https://rpm.nodesource.com/setup_15.x |-E bash
+curl -SL sudo hhttps://rpm.nodesource.com/setup_15.x |-E bash      # https://rpm.nodesource.com/setup_<version>.x |-E bash 
 sudo yum i -y nodejs
 
-if not installed :
+# if nodejs not installed :
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 . ~/.nvm/nvm.sh
 nvm install node
